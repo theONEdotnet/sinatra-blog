@@ -8,7 +8,7 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
       
-      <link href="../public/css/blog_styles.css" rel="stylesheet">
+      <link href="css/blog_styles.css" rel="stylesheet">
       
     </head>
   
@@ -17,14 +17,19 @@
  <body>
   <div class="container">
     <br>
-  <h1>Post by <small>User-1</small></h1>
+    <a href="/">Home</a>&nbsp;|&nbsp;
+    <a href="/login">Login</a>&nbsp;|&nbsp;
+    <a href="/sign_up">Sign Up</a>&nbsp;|&nbsp;
+    <a href="/feed">Blog Feed</a>&nbsp;|&nbsp;
+    <br>
+  <h1>Post by <small>John Doe</small></h1>
     <br>
     <br>
     
-    <div id="user-id"><a href="#" title="User1"><img src="../public/img/user-example.png"/>&nbsp;User-1&nbsp;| @user1</a></div>
+    <div id="user-id"><a href="#" title="John Doe . @user1"><img src="img/user-example.png"/>&nbsp;John Doe&nbsp;.&nbsp;@user1</a></div>
     <div id="postField" class="postField">
       
-      <form action="/" method="post">
+      <form action="feed.erb" method="post">
           <input type="text" name="postTitle" id="postTitle" placeholder="Title of your post" size="51px" maxlength="50" autofocus/><br><br>
 
           <textarea id="textArea" rows="4" cols="50" maxlength="150" placeholder="Type 150 characters or less."></textarea>
@@ -35,12 +40,12 @@
     </div>
   
   <br>
-  <span>Would you like to post again? <a href="post.erb">New Post</a></span>
+  <span>Would you like to post again? <a href="/post">New Post</a></span>
   </div>
    
-  <script type="text/javascript" src="../public/js/jquery.min.js"></script> 
+  <script type="text/javascript" src="js/jquery.min.js"></script> 
    
-  <script type="text/javascript" src="../public/js/charCounter.js"></script>
+  <script type="text/javascript" src="js/charCounter.js"></script>
  </body>
 
 

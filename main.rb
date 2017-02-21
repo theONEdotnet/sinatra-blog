@@ -10,7 +10,7 @@ enable :sessions
 get "/" do
   @users = User.all
   @posts = Post.all
-  @user = User.find(session[:user_id])
+  @user = User.find(session[:user_id]) if session[:user_id]
 
   session[:visited] = "I'm here"
 
@@ -118,6 +118,10 @@ post "/sessions/new" do
   end
 
   redirect "/"
+end
+
+get '/login' do
+	erb :login
 end
 
 
