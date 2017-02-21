@@ -1,0 +1,48 @@
+<html>
+    <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      
+      <title>Post Page</title>
+      
+      <!-- Bootstrap core CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+      
+      <link href="../public/css/blog_styles.css" rel="stylesheet">
+      
+    </head>
+  
+
+
+ <body>
+  <div class="container">
+    <br>
+  <h1>Post by <small>User-1</small></h1>
+    <br>
+    <br>
+    
+    <div id="user-id"><a href="#" title="User1"><img src="../public/img/user-example.png"/>&nbsp;User-1&nbsp;| @user1</a></div>
+    <div id="postField" class="postField">
+      
+      <form action="/" method="post">
+          <input type="text" name="postTitle" id="postTitle" placeholder="Title of your post" size="51px" maxlength="50" autofocus/><br><br>
+
+          <textarea id="textArea" rows="4" cols="50" maxlength="150" placeholder="Type 150 characters or less."></textarea>
+          <div id="textarea_feedback"></div><br>
+
+          <button type="submit">Post</button>&nbsp;<button type="reset">Reset</button>
+       </form>
+    </div>
+  
+  <br>
+  <span>Would you like to post again? <a href="post.erb">New Post</a></span>
+  </div>
+   
+  <script type="text/javascript" src="../public/js/jquery.min.js"></script> 
+   
+  <script type="text/javascript" src="../public/js/charCounter.js"></script>
+ </body>
+
+
+
+</html>
