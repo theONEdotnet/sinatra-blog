@@ -8,7 +8,7 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
       
-      <link href="../public/css/blog_styles.css" rel="stylesheet">
+      <link href="css/blog_styles.css" rel="stylesheet">
     </head>
   
 
@@ -16,31 +16,37 @@
  <body>
   <div class="container">
     <br>
-    <a href="index.erb">Home</a>&nbsp;|&nbsp;
-    <a href="login.erb">Login</a>&nbsp;|&nbsp;
-    Sign Up&nbsp;|&nbsp;
-    <a href="feed.erb">Blog Feed</a>&nbsp;|&nbsp;
+    <a href="/">Home</a>&nbsp;|&nbsp;
+    <a href="/login">Login</a>&nbsp;|&nbsp;
+    <a href="/sign_up">Sign Up</a>&nbsp;|&nbsp;
+    <a href="/feed">Blog Feed</a>&nbsp;|&nbsp;
     <br>
   <h1>Sign Up</h1>
     <br>
     <br>
   
   <form action="/" method="post">
-     <input type="text" name="first_name" id="first_name" placeholder="first name"/><br><br>
+    <label for="first_name">First Name</label>&nbsp;
+    <input type="text" name="first_name" id="first_name" size="50px" maxlength="50"/><br><br>
     
-     <input type="text" name="last_name" id="last_name" placeholder="last name"/><br><br>
+    <label for="last_name">Last Name</label>&nbsp;
+    <input type="text" name="last_name" id="last_name" size="50px" maxlength="50"/><br><br>
     
-      <input type="text" name="username" id="username" placeholder="create a username"/><br><br>
+    <label for="username">Username</label>&nbsp;
+    <input type="text" name="username" id="username" size="50px" maxlength="50"/><br><br>
     
-      <input type="text" name="email_address" id="email_address" placeholder="email address"/><br><br>
+    <label for="email">Email Address</label>&nbsp;  
+    <input type="text" name="email_address" id="email_address" size="46px" maxlength="50"/><br><br>
     
-      <input type="password" name="password" id="password" placeholder="create a password"/><br><br>
+    <label for="password">Password</label>&nbsp;&nbsp;&nbsp;
+    <input type="password" name="password" id="password" size="50px" maxlength="50"/><br><br>
     
     
     <button type="submit">Next</button><br>
    </form>
+    <br><br>
    
-   <div>Already a User?  <button type="button"><a href="login.erb">Login</a></button></div>
+   <div>Already a User? &nbsp;&nbsp;<a href="login">Login</a></div>
  </div> 
 </body>
 
