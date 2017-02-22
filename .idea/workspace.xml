@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90c20d91-7f4f-4d42-bf13-289c341b28ba" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/main-first.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.rb" afterPath="$PROJECT_DIR$/main.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models.rb" afterPath="$PROJECT_DIR$/models.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/feed.erb" afterPath="$PROJECT_DIR$/views/feed.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.erb" afterPath="$PROJECT_DIR$/views/index.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/login.erb" afterPath="$PROJECT_DIR$/views/login.erb" />
@@ -30,8 +23,8 @@
       <file leaf-file-name="main.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-585">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/views/sign_up.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+              <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -356,12 +349,12 @@
       <workItem from="1487647952407" duration="4816000" />
       <workItem from="1487697170396" duration="5000" />
       <workItem from="1487698547929" duration="2057000" />
-      <workItem from="1487712842344" duration="892000" />
+      <workItem from="1487712842344" duration="1408000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9084000" />
+    <option name="totallyTimeSpent" value="9600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="13" y="35" width="1518" height="1064" extended-state="0" />
@@ -712,7 +705,7 @@
     <entry file="file://$PROJECT_DIR$/views/sign_up.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -783,8 +776,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-585">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>
